@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-11T16:52:53.111Z",
+        "line": 3,
+        "name": "Assert ABN Number",
+        "description": "",
+        "id": "assertabnnumber;assert-abn-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6272631200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the Browser",
+            "match": {
+              "location": "StepDefinition.StepDef_AssertABNnumber.launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7974091300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open the FreeView web \"https://www.freeview.com.au\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.freeview.com.au\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.StepDef_AssertABNnumber.i_open_the_free_view_web(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3184201600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to WatchTV page from the Navigation bar",
+            "match": {
+              "location": "StepDefinition.StepDef_AssertABNnumber.i_navigate_to_watch_tv_page_from_the_navigation_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3180557900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Find and Click on Privacy Notice at bottom of the page",
+            "match": {
+              "location": "StepDefinition.StepDef_AssertABNnumber.find_and_click_on_privacy_notice_at_bottom_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74164800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the ABN number with this \"72 130 448 510\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"72 130 448 510\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.StepDef_AssertABNnumber.i_validate_the_abn_number_with_this(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AssertABNnumber",
+    "description": "",
+    "id": "assertabnnumber",
+    "keyword": "Feature",
+    "uri": "file:Features/AssertABNnumber.feature",
+    "tags": []
+  }
+]
